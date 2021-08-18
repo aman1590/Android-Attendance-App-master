@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/buttonlogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/roundedbutton"
+        android:text="Logout" />
+
+    <ImageButton
+        android:id="@+id/imageButtonaddstu"
+        android:layout_width="196dp"
+        android:layout_height="161dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/addstudent" />
+
+    <ImageButton
+        android:id="@+id/imageButtonviewstu"
+        android:layout_width="141dp"
+        android:layout_height="165dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/viewstu" />
+
+    <ImageButton
+        android:id="@+id/imageButtonstuatt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/attendencestu" />
+
+    <ImageButton
+        android:id="@+id/imageButtonaddfac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="550dp"
+        android:src="@drawable/addteacher" />
+
+    <ImageButton
+        android:id="@+id/imageButtonviewfac"
+        android:layout_width="155dp"
+        android:layout_height="221dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="550dp"
+        android:src="@drawable/viewteacher" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textColor="#EA0533"
+        android:layout_marginLeft="75dp"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
